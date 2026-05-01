@@ -15,9 +15,13 @@ Download the latest release and load as unpacked extension.
 #### uBlock Origin
 Add this filter:
 twitch.tv##+js(twitch-rewind.js)
-textThen set `userResourcesLocation` to:
+text
+
+Then set `userResourcesLocation` to:
 https://raw.githubusercontent.com/YOURUSERNAME/twitch-rewind/main/twitch-rewind-ubo.js
-text### How It Works
+text
+
+### How It Works
 It intercepts GraphQL requests and forces `hasActiveTurbo: true` + tracks the current VOD ID.
 
 ---
